@@ -1,0 +1,91 @@
+.parameters-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+    background-color: #e6f7ff;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .profile-photo-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 2px solid #007bff;
+  }
+  
+  .profile-photo-section p {
+    font-size: 0.9em;
+    color: #666;
+    margin: 0;
+  }
+  
+  .change-photo-icon {
+    font-size: 1.5em;
+    color: #007bff;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .change-photo-icon:hover {
+    color: #007bff;
+  }
+  
+  .info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .info-item {
+    background-color: #e6f7ff;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .info-item label {
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .info-item input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+  
+  .update-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    float: right;
+  }
+  
+  .update-button:hover {
+    background-color: #0164ce;
+  }
