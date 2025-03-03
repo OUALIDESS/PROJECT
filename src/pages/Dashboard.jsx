@@ -6,7 +6,7 @@ import '../style/Dashboard.css';
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement);
 
 const Parametres = () => {
-  // Données fictives
+  
   const [consumptionData] = useState({
     labels: ['Semaine 1', 'Semaine 2', 'Semaine 3', 'Semaine 4', 'Semaine 5'],
     datasets: [{ data: [400, 500, 600, 700, 300], backgroundColor: '#4a90e2' }],
@@ -58,7 +58,7 @@ const Parametres = () => {
   const handleAddSupplier = () => {
     console.log('Ajout d\'un nouveau fournisseur...');
     const newSupplier = {
-      id: Date.now(), // ID unique basé sur le timestamp
+      id: Date.now(), // ID unique basé sur le timestamp,
       name: `Nouveau Fournisseur ${suppliers.length + 1}`,
       products: 'Nouveau Produit',
       contact: `06 ${Math.floor(10000000 + Math.random() * 90000000)}`,

@@ -239,7 +239,7 @@ const PointageSystem = () => {
             <label>
               <input
                 type="radio"
-                name="status" // نفس name لضمان اختيار واحد فقط
+                name="status" 
                 checked={newDemande.approuve === true && newDemande.reclamation === false}
                 onChange={() => setNewDemande({ ...newDemande, approuve: true, reclamation: false })}
               /> Approuvé

@@ -94,7 +94,7 @@ const Parameters = () => {
             id="imageInput"
             accept="image/*"
             onChange={handleImageChange}
-            style={{ display: 'none' }} // Champ caché pour sélectionner l'image
+            style={{ display: 'none' }} 
           />
           <FaCamera
             className="change-photo-icon"
